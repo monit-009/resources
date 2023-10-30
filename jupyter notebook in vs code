@@ -1,0 +1,4 @@
+To run jupyter notebook in vs code
+step1. make a file name.ipynb
+step2. run code in terminal
+>>pip install ipykernel
