@@ -1,0 +1,58 @@
+To check git is connected to reposotory
+>>git remote -v
+
+To remove connected git reposotory
+>>git remote rm origin
+
+To initilize empty git reposotory
+>>git init
+
+To get status
+>> git status
+
+To config git to github
+>>git config --global user.name "xyz"
+>>git config --global user.email "xyz@gmail.com"
+
+To link git reposotory
+>>git remote add origin https://github.com/monit-009/git_practice.git
+
+To check branch
+>>git branch 
+
+To rename branch master to main # -M is to rename
+>>git branch -M main
+
+To change branch
+>>git push -u origin <branch_name>
+
+To delete branch
+>> git branch -d make_function
+
+To add file
+>>git add README.md
+
+To remove file
+>>git rm --cached README.md
+
+To add all files
+>>git add .
+
+To commit file in git
+>>git commit -m "file name"
+
+To push the file to github reposatory from computer
+>>git push origin main
+
+To pull files from github reposatory to computer 
+>>git pull origin main
+
+
+To remove folder
+>>git rm -r --cached myFolder
+
+
+To clone
+1step: make folder
+2step:change the directory to folder which you want to clone
+>>git clone https://github.com/monit-009/gitpractice.git
