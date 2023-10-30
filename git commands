@@ -56,6 +56,8 @@ To push the file to github reposatory from computer
 To pull files from github reposatory to computer 
 >>git pull origin main
 
+To merge branch
+>>git merge branch_name
 
 To remove folder
 >>git rm -r --cached myFolder
