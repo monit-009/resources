@@ -1,0 +1,30 @@
+how create virtual environment using Anaconda prompt
+
+##If you are using Anaconda here is the solution. This command lists all the discoverable environments
+>>conda info --envs
+or 
+>>conda env list
+
+##Check if conda is installed in your path.
+>>conda -V
+
+## Update the conda environment 
+>>conda update conda
+
+step1:Set up the virtual environment
+>>conda create -n envname python=x.x anaconda
+
+step2: Activating the virtual environment
+>>conda activate envname
+
+step3:Installation of required packages to the virtual environment
+>>conda install -n yourenvname package
+
+step4:Deactivating the virtual environment
+>>conda deactivate
+
+step5: Deletion of virtual environment
+>>conda remove -n envname -all
+
+## install pip in your environment to install other packages
+>>conda install pip
